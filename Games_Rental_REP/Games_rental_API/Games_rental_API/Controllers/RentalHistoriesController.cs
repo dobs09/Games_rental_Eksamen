@@ -41,15 +41,11 @@ namespace Games_rental_API.Controllers
                 histories = histories.Where(
                     m => m.Games.Name.ToLower().Contains(parameters.GameName));
             }
-            if (!String.IsNullOrEmpty(parameters.Sort))
+            if (!String.IsNullOrEmpty(parameters.SortBy))
             {
-                if(parameters.Sort == "desc")
+                if (typeof(RentalHistory).GetProperty(parameters.SortBy) != null)
                 {
-                    histories.OrderByDescending(x => x.ID);
-                }
-                else
-                {
-                    histories.OrderBy(x => x.ID);
+                    histories = histories.OrderByCustom(parameters.SortBy, parameters.SortOrder);
                 }
             }
 
