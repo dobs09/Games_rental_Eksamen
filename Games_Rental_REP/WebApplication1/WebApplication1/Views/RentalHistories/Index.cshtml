@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Games_Rental_MVC.Models.RentalHistories>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    int intSno = 0;
+}
+
+
+
+<p>
+    <a asp-action="Create">Opret ny udlejning</a>
+</p>
+
+<div class="col-4 p-0 justify-content-end" style="padding-bottom: 10px;">
+
+    <form asp-controller="RentalHistories" asp-action="Index">
+        <span class="btn-group">
+            <input class="form-control" type="text" name="SearchGame"
+                   placeholder="Søg på medlem">
+            <input class="p-1 ml-2 btn btn-sm btn-info" type="submit" value="Search" />
+            <input class="form-control" type="text" name="SearchMember"
+                   placeholder="Søg på spil">
+            <input class="p-1 ml-2 btn btn-sm btn-info" type="submit" value="Search" />
+        </span>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentalDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GameId)
+            </th>            
+            <th>
+                @Html.DisplayNameFor(model => model.MemberId)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) 
+{
+                intSno = intSno + 1;
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelitem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameId)
+            </td>
+         
+            <td>
+                @Html.DisplayFor(modelitem => item.MemberId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

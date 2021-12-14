@@ -1,5 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@using WebApplication1.Areas.Identity.Data
+@using Games_Rental_MVC.Areas.Identity.Data
 
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
@@ -7,6 +7,24 @@
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="AspNetUsers" asp-action="Index">Rediger Brugeradmin</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Brugeradmin</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Members" asp-action="Index">Medlemmer</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Games" asp-action="Index">Spil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="RentalHistories" asp-action="Index">Udlejning</a>
+        </li>
+
         <li class="nav-item">
             <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
         </li>
@@ -14,9 +32,6 @@
             <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                 <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
             </form>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
         </li>
 
     }

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebApplication1.Migrations
+namespace Games_Rental_MVC.Migrations
 {
     public partial class Initialcreate : Migration
     {

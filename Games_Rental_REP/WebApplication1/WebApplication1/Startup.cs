@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,8 +9,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Games_Rental_MVC.Data;
+using Games_Rental_MVC.Models;
+using Games_Rental_MVC.Repositories;
 
-namespace WebApplication1
+namespace Games_Rental_MVC
 {
     public class Startup
     {
@@ -23,8 +27,12 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IRepository<RentalHistories, int, string, string>, RentalHistoriesRepository>();
+            services.AddScoped<IRepository<Members, int, string, string>, MemberRepository>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddDbContext<GamesDbContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Tobias")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

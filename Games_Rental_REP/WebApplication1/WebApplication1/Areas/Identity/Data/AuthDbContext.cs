@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Areas.Identity.Data;
+using Games_Rental_MVC.Areas.Identity.Data;
 
-namespace WebApplication1.Data
+namespace Games_Rental_MVC.Data
 {
     public class AuthDbContext : IdentityDbContext<ApplicationUser>
     {

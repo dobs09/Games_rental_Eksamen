@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication1.Models;
+using Games_Rental_MVC.Models;
 
-namespace WebApplication1.Controllers
+namespace Games_Rental_MVC.Controllers
 {
     public class HomeController : Controller
     {

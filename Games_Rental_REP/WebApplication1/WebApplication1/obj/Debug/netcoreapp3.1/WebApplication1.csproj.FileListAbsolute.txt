@@ -81,7 +81,6 @@ C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\bin\Deb
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
@@ -166,3 +165,19 @@ C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Deb
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Members\Create.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Members\Delete.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Members\Details.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Members\Edit.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Members\Index.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Games\Create.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Games\Delete.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Games\Details.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Games\Edit.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Games\Index.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\RentalHistories\Create.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\RentalHistories\Delete.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\RentalHistories\Details.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\RentalHistories\Edit.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\RentalHistories\Index.cshtml.g.cs

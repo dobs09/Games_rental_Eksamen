@@ -1,6 +1,7 @@
 using System;
 
-namespace WebApplication1.Models
+
+namespace Games_Rental_MVC.Models
 {
     public class ErrorViewModel
     {

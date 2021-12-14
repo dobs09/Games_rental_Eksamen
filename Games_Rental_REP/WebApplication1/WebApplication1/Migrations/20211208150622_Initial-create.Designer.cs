@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication1.Data;
+using Games_Rental_MVC.Data;
 
-namespace WebApplication1.Migrations
+namespace Games_Rental_MVC.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
     [Migration("20211208150622_Initial-create")]
