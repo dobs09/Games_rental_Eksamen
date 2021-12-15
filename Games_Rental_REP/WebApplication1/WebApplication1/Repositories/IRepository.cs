@@ -18,6 +18,8 @@ namespace Games_Rental_MVC.Repositories
         Task Update(/*T2 id,*/ T1 Entity);
 
 
+
+
     
         
     }

@@ -198,3 +198,5 @@ C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Deb
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\AspNetUsers\Details.cshtml.g.cs
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\AspNetUsers\Edit.cshtml.g.cs
 C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\AspNetUsers\Index.cshtml.g.cs
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\System.Net.Http.Extensions.dll
+C:\Users\jjuip2\Desktop\Games_Rental_REP\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\System.Net.Http.Primitives.dll

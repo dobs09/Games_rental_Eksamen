@@ -15,13 +15,16 @@ namespace Games_Rental_MVC.Controllers
     public class RentalHistoriesController : Controller
     {
         //private readonly GamesDbContext _context;
+        
         private readonly IRepository<RentalHistories, int, string, string> _rentalhistoriesRepo;
-        private readonly IRepository<Members, int, string, string> _memberRepo;
 
-        public RentalHistoriesController(IRepository<RentalHistories, int, string, string> rentalhistoriesRepo)
+
+        public RentalHistoriesController( IRepository<RentalHistories, int, string, string> rentalhistoriesRepo)
         {
+           
             _rentalhistoriesRepo = rentalhistoriesRepo;
-            
+
+
         }
 
         public async Task<IActionResult> Index(string SearchGame = "", string SearchMember = "")

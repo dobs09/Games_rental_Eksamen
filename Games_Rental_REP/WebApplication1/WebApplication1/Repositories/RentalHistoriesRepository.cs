@@ -22,7 +22,7 @@ namespace Games_Rental_MVC.Repositories
             _context = context;
         }
 
-       
+
 
         public async Task<IEnumerable<RentalHistories>> GetAll(String SearchMember, string SearchGame)
         {
@@ -34,8 +34,8 @@ namespace Games_Rental_MVC.Repositories
                    m => m.MemberId.ToString().Contains(SearchMember)).ToListAsync();
             }
             else if (SearchGame != "" && SearchGame != null)
-            {              
-                       
+            {
+
 
                 histories = await _context.RentalHistories.Where(
                    m => m.GameId.ToString().Contains(SearchGame)).ToListAsync();
@@ -43,16 +43,16 @@ namespace Games_Rental_MVC.Repositories
             else
             {
                 histories = await _context.RentalHistories.ToListAsync();
-               
+
             }
             return histories;
         }
 
-        
+
         public async Task<RentalHistories> GetById(int id)
         {
 
-            return await _context.RentalHistories.Include(r => r.Member).FirstOrDefaultAsync(z => z.Id == id);                                
+            return await _context.RentalHistories.Include(r => r.Member).FirstOrDefaultAsync(z => z.Id == id);
 
         }
 
@@ -85,14 +85,14 @@ namespace Games_Rental_MVC.Repositories
         public async Task Delete(int id)
         {
             var rentalhist = await _context.RentalHistories.FirstOrDefaultAsync(z => z.Id == id);
-            if(rentalhist != null)
+            if (rentalhist != null)
             {
                 _context.Remove(rentalhist);
                 //await _context.SaveChangesAsync();
             }
         }
 
-      
+
 
 
         public async Task Update(/*int id,*/ RentalHistories Entity)
